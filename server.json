@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.valor-mineral-management/services-contact",
+  "title": "Valor Services & Contact",
+  "description": "Explore Valor services and prepare a contact request for the user to review and send on Valor.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.onevalor.com/contact/",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.onevalor.com/mcp/services/v1"
+    }
+  ]
+}
